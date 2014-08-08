@@ -1,10 +1,10 @@
 ﻿
 //IMPORTS
 
-  @import url("HeightStyleSheet.css");
-  @import url("OperandsStyleSheet.css");
-  @import url("DecorStyleSheet.css");
-  @import url("FontsStyleSheet.css");
+  @import "HeightStyleSheet";
+  @import "OperandsStyleSheet";
+  @import "DecorStyleSheet";
+  @import "FontsStyleSheet";
 
   @font-face {font-family:"bebas";src: url('BEBAS.ttf') format('truetype')}
   @font-face {font-family:"oswaldbold";src: url('oswaldbold.ttf') format('truetype')}
