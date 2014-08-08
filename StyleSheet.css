@@ -9933,7 +9933,7 @@ hr.sexy_line {
 
 @font-face {
   font-family: "bebas";
-  src: url('BEBAS.ttf') format('truetype'); }
+  src: url('bebas.ttf') format('truetype'); }
 
 @font-face {
   font-family: "oswaldbold";
@@ -9948,8 +9948,8 @@ hr.sexy_line {
   src: url('komikatitle.ttf') format('truetype'); }
 
 @font-face {
-  font-family: "ostrich-black";
-  src: url('ostrich-black.ttf') format('truetype'); }
+  font-family: "ostrichblack";
+  src: url('ostrichblack.ttf') format('truetype'); }
 
 ::selection {
   color: black;
