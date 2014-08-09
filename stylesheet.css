@@ -10099,7 +10099,7 @@ a, a:visited, a:hover, a:active {
         padding: 20px;
         font-size: 1.4rem; }
       #films .film .details p.title {
-        font-family: ostrich-black;
+        font-family: ostrichblack;
         text-transform: uppercase; }
         #films .film .details p.title b, #films .film .details p.title i {
           text-transform: none;
@@ -10239,4 +10239,4 @@ a:hover ~ .fb_iframe_widget {
     margin-right: 20px;
     font-size: 12px; }
 
-/*# sourceMappingURL=StyleSheet.css.map */
+/*# sourceMappingURL=stylesheet.css.map */
