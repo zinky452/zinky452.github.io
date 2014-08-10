@@ -9958,6 +9958,7 @@ hr.sexy_line {
 body {
   font-size: 2rem;
   color: lightgray;
+  margin: 0;
   font-family: 'Oswald', sans-serif;
   line-height: 1; }
   body p {
@@ -10009,32 +10010,33 @@ a, a:visited, a:hover, a:active {
     font-size: 1.8rem;
     margin-right: 20px; }
 
-#home img {
-  position: absolute;
-  top: 70px;
-  left: 0;
-  width: 100%;
-  min-width: 1120px; }
-#home .nametitle {
-  text-align: center;
-  position: relative;
-  top: 270px;
-  z-index: 3;
-  min-width: 1100px;
-  margin: auto;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: gray; }
-  #home .nametitle h1 {
-    font-size: 3em;
-    margin: 0;
-    text-transform: uppercase;
-    font-family: oswaldbold; }
-  #home .nametitle h2 {
-    font-size: 2rem;
-    margin: 0;
-    text-transform: capitalize;
-    font-family: oswaldlight;
-    position: relative; }
+#home {
+  margin-bottom: -220px; }
+  #home img {
+    margin-top: -130px;
+    width: 100%;
+    min-width: 1120px; }
+  #home .nametitle {
+    text-align: center;
+    position: relative;
+    min-width: 1100px;
+    margin: auto;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray; }
+    #home .nametitle h1 {
+      font-size: 3em;
+      margin: 0;
+      text-transform: uppercase;
+      font-family: oswaldbold;
+      position: relative;
+      top: 200px; }
+    #home .nametitle h2 {
+      font-size: 2rem;
+      margin: 0;
+      text-transform: capitalize;
+      font-family: oswaldlight;
+      position: relative;
+      top: 200px; }
 
 #about {
   margin-top: 40px; }
@@ -10069,35 +10071,36 @@ a, a:visited, a:hover, a:active {
         margin: 25px;
         margin-top: 80px; }
 
-#film4 {
-  margin-bottom: 0; }
-
-#film5 {
-  margin-top: 0; }
+.previewpics img {
+  width: 400px; }
 
 #films {
   margin-top: 220px; }
   #films .film {
     margin: 50px 0;
-    min-width: 1500px; }
+    min-width: 1500px;
+    /*.details.small{margin:10px 20px;}
+    .details.short{margin:auto 20px;}*/ }
     #films .film > div {
       float: left; }
-    #films .film .details.small {
-      margin: 10px 20px; }
-    #films .film .details.short {
-      margin: 70px 20px; }
     #films .film .details {
       height: 100%;
-      width: 300px;
-      margin: 120px 20px;
-      margin-left: 60px !important;
+      width: 20%;
+      margin: auto 2%;
+      margin-left: 6%;
       color: white; }
       #films .film .details p {
         margin: 0; }
       #films .film .details .titlebox {
         background-color: black;
         padding: 20px;
-        font-size: 1.4rem; }
+        font-size: 1.4rem;
+        margin-top: 2%; }
+      #films .film .details p.current {
+        font-family: bebas;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        color: red; }
       #films .film .details p.title {
         font-family: ostrichblack;
         text-transform: uppercase; }
@@ -10126,13 +10129,13 @@ a, a:visited, a:hover, a:active {
       #films .film .details .awards {
         position: relative; }
         #films .film .details .awards img {
-          position: absolute; }
+          width: 49%;
+          vertical-align: middle; }
   #films .previewpics {
-    width: 20px; }
+    width: 72%; }
     #films .previewpics .top2, #films .previewpics .bottom2 {
       float: left;
-      display: inline-block;
-      min-width: 950px; }
+      display: inline-block; }
     #films .previewpics .img {
       display: block;
       margin: 5px;
@@ -10145,9 +10148,8 @@ a, a:visited, a:hover, a:active {
       height: 100%;
       width: 100%; }
   #films .previewpics.small {
-    width: 1100px;
-    min-width: 1100px;
-    margin: 0; }
+    /*width:1100px;min-width:1100px;
+            margin:0;*/ }
     #films .previewpics.small .img {
       width: 20%; }
     #films .previewpics.small img {
@@ -10208,6 +10210,11 @@ a:hover ~ .fb_iframe_widget {
     margin-top: 50px; }
     #news .future h2 b {
       font-size: 1.3rem; }
+  #news .future img {
+    width: 450px;
+    margin-left: 20px; }
+  #news .future .inline-block {
+    vertical-align: top; }
 
 #cv h1 {
   text-transform: uppercase;
@@ -10221,7 +10228,8 @@ a:hover ~ .fb_iframe_widget {
 #footer {
   height: 20px;
   text-align: center;
-  margin: 150px auto 50px; }
+  margin: 150px auto 50px;
+  position: relative; }
 
 #lightbox {
   position: fixed;
