@@ -49,10 +49,11 @@
 #header ul{width:1060px;height:62px; border-bottom:1px solid black;text-transform: uppercase;
     a{font-family:oswaldlight;color:black;font-size: 1.8rem;margin-right:20px;}
 }
-#home{img{margin-top:-130px;width:100%;min-width:1120px;}
+#home{img{margin-top:-130px;width:100%;max-width:1500px;}//min-width:1120px;
       //{position:absolute;top:70px;left:0;width:100%;min-width:1120px;}
     .nametitle{text-align:center;position:relative;//top:270px;z-index:3;
                min-width: 1100px;margin: auto;  
+               max-height: 900px;overflow: hidden;
                -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: gray;    
         h1{font-size:3em;margin:0;text-transform:uppercase;font-family:oswaldbold;position:relative;top:200px;}
@@ -60,9 +61,13 @@
         }
     margin-bottom:-220px;
 }
-#about{margin-top:40px;
+#about{margin: 40px auto;
+width: 1100px;
     .head{width:700px;height:0px;position:relative;top:-18px;left:5px;margin:auto;z-index:2;}
     h4{position:relative;top: 9px;}
+    .contactinfo{color:black;margin:90px auto -50px;h5{margin:0;}
+                a{margin-left: 300px;font-weight: bold;font-size: smaller;text-decoration: overline;}
+    }
             .bg{position:relative;
                   height:500px;width:700px;
                          img{display:block;margin:auto;height:120%;
@@ -74,12 +79,12 @@
                 }
         }
 
-.previewpics img{width:400px;}
+
 #films{margin-top:220px; .film{margin:50px 0;min-width:1500px;
     >div{float:left;}
     /*.details.small{margin:10px 20px;}
     .details.short{margin:auto 20px;}*/
-    .details{height:100%;width: 20%;margin: auto 2%;margin-left: 6%;color:white;
+    .details{height:100%;width: 20%;margin: auto 2%;margin-left: 6%;color:white;max-width: 300px;
 
              p{margin:0;}.titlebox{background-color:black;padding:20px;font-size:1.4rem; margin-top:2%;}
             p.current{font-family:bebas;text-transform:uppercase;font-size:1.4rem;color:red;}
@@ -93,8 +98,9 @@
             .awards{position:relative; img{width:49%; vertical-align:middle;}}//position:absolute;
             }
         }
-    .previewpics{width:72%; .top2,.bottom2{float:left;display:inline-block;}//min-width:950px;
-        .img{display:block;margin:5px;float:left;position:relative;}
+     .previewpics img{width:100%; max-width:900px;}
+    .previewpics{width:70%; .top2,.bottom2{float:left;display:inline-block;width:100%;}//min-width:950px;
+        .img{display:block;margin:5px 10px ;float:left;position:relative;width: 48%; max-width:900px;}
         a{position:absolute;top:0;left:0;height:100%;width:100%;}
                 }
     .previewpics.small{
