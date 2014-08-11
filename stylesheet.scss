@@ -56,8 +56,8 @@
                max-height: 900px;overflow: hidden;
                -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: gray;    
-        h1{font-size:3em;margin:0;text-transform:uppercase;font-family:oswaldbold;position:relative;top:200px;}
-        h2{font-size:2rem;margin:0;text-transform:capitalize;font-family:oswaldlight;position:relative;top:200px;}
+        h1{font-size:2.5em;margin:0;text-transform:uppercase;font-family:oswaldbold;position:relative;top:300px;}
+        h2{font-size:1.8rem;margin:0;text-transform:capitalize;font-family:oswaldlight;position:relative;top:300px;}
         }
     margin-bottom:-220px;
 }
@@ -79,12 +79,13 @@ width: 1100px;
                 }
         }
 
-
-#films{margin-top:220px; .film{margin:50px 0;min-width:1500px;
-    >div{float:left;}
+//width:60%; width:26%; max-width:340px;
+#films{margin-top:220px;width: 1500px;margin: 220px auto;
+        .film{margin:50px 0;min-width:1500px;
+                >div{float:left;}
     /*.details.small{margin:10px 20px;}
     .details.short{margin:auto 20px;}*/
-    .details{height:100%;width: 20%;margin: auto 2%;margin-left: 6%;color:white;max-width: 300px;
+    .details{height:100%;width: 23%;margin: auto 2%;margin-left: 5%;color:white;max-width: 340px;
 
              p{margin:0;}.titlebox{background-color:black;padding:20px;font-size:1.4rem; margin-top:2%;}
             p.current{font-family:bebas;text-transform:uppercase;font-size:1.4rem;color:red;}
@@ -95,12 +96,12 @@ width: 1100px;
             p.description{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:.9rem;color:darkgray;
                           margin-top:30px;}
 .fb1{right:20px;bottom:20px;}       .fb2{right: 55px;bottom: 70px;}  .imdb{right:0;bottom:70px;}
-            .awards{position:relative; img{width:49%; vertical-align:middle;}}//position:absolute;
+            .awards{position:relative; img{width:47%; vertical-align:middle;}}//position:absolute;
             }
         }
-     .previewpics img{width:100%; max-width:900px;}
+     .previewpics img{width:100%; max-width:500px;}
     .previewpics{width:70%; .top2,.bottom2{float:left;display:inline-block;width:100%;}//min-width:950px;
-        .img{display:block;margin:5px 10px ;float:left;position:relative;width: 48%; max-width:900px;}
+        .img{display:block;margin:5px 10px ;float:left;position:relative;width: 48%; max-width:500px;}
         a{position:absolute;top:0;left:0;height:100%;width:100%;}
                 }
     .previewpics.small .img{width:20%;}
@@ -132,10 +133,10 @@ a:hover ~.fb_iframe_widget{display:inline-block!important;} .fb_iframe_widget:ho
 #cv{
     h1{text-transform:uppercase;font-size:5rem;
        font-family:bebas; font-weight:100;
-       text-align: center;margin-top:17%;color:black;}
+       text-align: center;margin:10%;color:black;}
 }
 #footer{
-    height:20px;text-align:center;margin:150px auto 50px;position:relative;
+    height:20px;text-align:center;margin:180px auto 50px;position:relative;p{font-size:1.2rem;}
 }
 
 
@@ -151,6 +152,7 @@ a:hover ~.fb_iframe_widget{display:inline-block!important;} .fb_iframe_widget:ho
     text-align:center;
     background: rgba(0,0,0,.7);
 
+    img{max-width:80%;}
     p {
     text-align:right; 
     color:#fff; 
