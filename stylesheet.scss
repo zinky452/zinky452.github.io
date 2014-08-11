@@ -103,13 +103,7 @@ width: 1100px;
         .img{display:block;margin:5px 10px ;float:left;position:relative;width: 48%; max-width:900px;}
         a{position:absolute;top:0;left:0;height:100%;width:100%;}
                 }
-    .previewpics.small{
-            /*width:1100px;min-width:1100px;
-            margin:0;*/
-            .img{width:20%;}
-            img{width:220px;}
-            a{width:220px;}          
-                    }
+    .previewpics.small .img{width:20%;}
 }
 a:hover ~.fb_iframe_widget{display:inline-block!important;} .fb_iframe_widget:hover{display:inline-block!important;}
 .fb_iframe_widget{position:absolute!important;top:0;left:10px;z-index:9;cursor:pointer;display:none!important;
