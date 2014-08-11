@@ -46,16 +46,18 @@
   .kill{display:none!important;}
 //.menu{position:absolute;width:50%;padding:0 20%;margin:0 5%;padding-bottom:20px;border-bottom:1px solid black;}
   a, a:visited, a:hover, a:active{text-decoration: none;color:inherit;cursor:pointer;}
-#header ul{width:1060px;height:62px; border-bottom:1px solid black;text-transform: uppercase;
+#header ul{width:1060px;height:62px; border-bottom:1px solid black;text-transform: uppercase; margin-top:15px;
     a{font-family:oswaldlight;color:black;font-size: 1.8rem;margin-right:20px;}
 }
-#home{img{margin-top:-130px;width:100%;max-width:1500px;}//min-width:1120px;
-      //{position:absolute;top:70px;left:0;width:100%;min-width:1120px;}
-    .nametitle{text-align:center;position:relative;//top:270px;z-index:3;
+#home{margin-top: -2px;
+      img{margin-top:-130px;width:100%;max-width:1500px;}
+    .nametitle{text-align:center;position:relative;
                min-width: 1100px;margin: auto;  
                max-height: 900px;overflow: hidden;
-               -webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: gray;    
+               //-webkit-text-stroke-width: 1px;
+//-webkit-text-stroke-color: gray;
+text-shadow:
+   -1px -1px 0 gray,  1px -1px 0 gray,-1px 1px 0 gray, 1px 1px 0 gray;    
         h1{font-size:2.5em;margin:0;text-transform:uppercase;font-family:oswaldbold;position:relative;top:300px;}
         h2{font-size:1.8rem;margin:0;text-transform:capitalize;font-family:oswaldlight;position:relative;top:300px;}
         }
@@ -80,7 +82,7 @@ width: 1100px;
         }
 
 //width:60%; width:26%; max-width:340px;
-#films{margin-top:220px;width: 1500px;margin: 220px auto;
+#films{width: 1500px;margin: 120px auto;
         .film{margin:50px 0;min-width:1500px;
                 >div{float:left;}
     /*.details.small{margin:10px 20px;}
@@ -99,9 +101,9 @@ width: 1100px;
             .awards{position:relative; img{width:47%; vertical-align:middle;}}//position:absolute;
             }
         }
-     .previewpics img{width:100%; max-width:500px;}
+     .previewpics img{width:100%; max-width:400px;}
     .previewpics{width:70%; .top2,.bottom2{float:left;display:inline-block;width:100%;}//min-width:950px;
-        .img{display:block;margin:5px 10px ;float:left;position:relative;width: 48%; max-width:500px;}
+        .img{display:block;margin:5px 10px ;float:left;position:relative;width: 48%; max-width:400px;}
         a{position:absolute;top:0;left:0;height:100%;width:100%;}
                 }
     .previewpics.small .img{width:20%;}
