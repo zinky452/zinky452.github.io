@@ -1,10 +1,32 @@
 ﻿
 //IMPORTS
+.overflow-hide{overflow:hidden;}
+.centerdiv {width:auto;text-align: center;
+            ul {width:auto;padding:0;margin:auto;line-height: 1.4;
+                                              li {display: inline;text-align: center;}
+                }}
 
-  @import "heightstylesheet";
+.margin{margin:auto;}
+.clearfix:before,
+        .clearfix:after {
+          content:"";
+          display:table;
+        }
+        .clearfix:after {
+          clear:both;
+        }
+        .clearfix {
+          zoom:1; /* For IE 6/7 (trigger hasLayout) */
+        }
+.pos-abs{position:absolute;}
+.pos-rel{position:relative;}
+  .inline{display:inline;}
+  .inline-block{display:inline-block;}
+
+  /*@import "heightstylesheet";
   @import "operandsstylesheet";
   @import "decorstylesheet";
-  @import "fontsstylesheet";
+  @import "fontsstylesheet";*/
 
   @font-face {font-family:"bebas";src: url('bebas.ttf') format('truetype')}
   @font-face {font-family:"oswaldbold";src: url('oswaldbold.ttf') format('truetype')}
