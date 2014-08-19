@@ -129,13 +129,13 @@ a:hover ~.fb_iframe_widget{display:inline-block!important;} .fb_iframe_widget:ho
        text-align: center;margin:10%;color:black;}
 }
 #footer{
-    height:20px;text-align:center;margin:190px auto 0px;position:relative;p{font-size:1.2rem;}
+    height:20px;text-align:center;margin:190px auto 0;position:relative;p{font-size:1.2rem;}
 }
 
 .icons{
 position: fixed;
 left: 0;
-top: 10%;
+top: 30%;
 z-index: 9;
         >div{
             border-bottom: 1px solid transparent;
