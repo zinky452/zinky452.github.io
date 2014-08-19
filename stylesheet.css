@@ -39,10 +39,6 @@
 .inline-block {
   display: inline-block; }
 
-/*@import "heightstylesheet";
-  @import "operandsstylesheet";
-  @import "decorstylesheet";
-  @import "fontsstylesheet";*/
 @font-face {
   font-family: "bebas";
   src: url('bebas.ttf') format('truetype'); }
@@ -82,27 +78,6 @@ body {
     text-transform: uppercase;
     margin: 0; }
 
-/*body{padding:0; margin:0;position:relative;min-height:100%;
-      //fonts
-
-      font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-      
-      ul{padding:0; margin:0;}
-        li{list-style:none;
-           font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-           text-transform:capitalize;
-           
-        }
-        h1,h2,h3,h5{font-family: "chomp"; text-shadow: 0px 5px 4px rgba(150, 150, 150, 0.9);}
-        h4{margin:5px 0;}
-        h1{font-size:8em;}h2{font-size:4em;}h5{font-size:4em;}
-        p{font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;  
-          font-size:1.5rem;  
-          text-transform:uppercase;}
-             
-             label{cursor:pointer;}
-             a{transition:all .5s ease-in-out}
-}*/
 .kill {
   display: none !important; }
 
@@ -202,9 +177,7 @@ a, a:visited, a:hover, a:active {
   margin: 120px auto; }
   #films .film {
     margin: 50px 0;
-    min-width: 1500px;
-    /*.details.small{margin:10px 20px;}
-    .details.short{margin:auto 20px;}*/ }
+    min-width: 1500px; }
     #films .film > div {
       float: left; }
     #films .film .details {
@@ -356,6 +329,31 @@ a:hover ~ .fb_iframe_widget {
   position: relative; }
   #footer p {
     font-size: 1.2rem; }
+
+.icons {
+  position: fixed;
+  left: 0;
+  top: 10%;
+  z-index: 9; }
+  .icons > div {
+    border-bottom: 1px solid transparent;
+    height: 50px;
+    position: relative; }
+  .icons img {
+    width: 50px;
+    height: 50px;
+    background-color: #3D3D3D; }
+  .icons a {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; }
+  .icons #imdb:hover img {
+    background-color: #f4d701; }
+  .icons #linkedin:hover img {
+    background-color: #007bb6; }
+  .icons #twitter:hover img {
+    background-color: #00aced; }
 
 #lightbox {
   position: fixed;

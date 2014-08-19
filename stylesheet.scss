@@ -23,11 +23,6 @@
   .inline{display:inline;}
   .inline-block{display:inline-block;}
 
-  /*@import "heightstylesheet";
-  @import "operandsstylesheet";
-  @import "decorstylesheet";
-  @import "fontsstylesheet";*/
-
   @font-face {font-family:"bebas";src: url('bebas.ttf') format('truetype')}
   @font-face {font-family:"oswaldbold";src: url('oswaldbold.ttf') format('truetype')}
   @font-face {font-family:"oswaldlight";src: url('oswaldlight.ttf') format('truetype')}
@@ -44,29 +39,8 @@
         h4{font-family:"bebas";font-size:3rem;text-transform:uppercase; margin:0;
            }
   }
-  /*body{padding:0; margin:0;position:relative;min-height:100%;
-      //fonts
 
-      font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-      
-      ul{padding:0; margin:0;}
-        li{list-style:none;
-           font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-           text-transform:capitalize;
-           
-        }
-        h1,h2,h3,h5{font-family: "chomp"; text-shadow: 0px 5px 4px rgba(150, 150, 150, 0.9);}
-        h4{margin:5px 0;}
-        h1{font-size:8em;}h2{font-size:4em;}h5{font-size:4em;}
-        p{font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;  
-          font-size:1.5rem;  
-          text-transform:uppercase;}
-             
-             label{cursor:pointer;}
-             a{transition:all .5s ease-in-out}
-}*/
   .kill{display:none!important;}
-//.menu{position:absolute;width:50%;padding:0 20%;margin:0 5%;padding-bottom:20px;border-bottom:1px solid black;}
   a, a:visited, a:hover, a:active{text-decoration: none;color:inherit;cursor:pointer;}
 #header ul{width:1060px;height:62px; border-bottom:1px solid black;text-transform: uppercase; margin-top:15px;
     a{font-family:oswaldlight;color:black;font-size: 1.8rem;margin-right:20px;}
@@ -76,8 +50,6 @@
     .nametitle{text-align:center;position:relative;
                min-width: 1100px;margin: auto;  
                max-height: 900px;overflow: hidden;
-               //-webkit-text-stroke-width: 1px;
-//-webkit-text-stroke-color: gray;
 text-shadow:
    -1px -1px 0 gray,  1px -1px 0 gray,-1px 1px 0 gray, 1px 1px 0 gray;    
         h1{font-size:2.5em;margin:0;text-transform:uppercase;font-family:oswaldbold;position:relative;top:350px;}
@@ -103,13 +75,10 @@ width: 1100px;
                 }
         }
 
-//width:60%; width:26%; max-width:340px;
 #films{width: 1500px;margin: 120px auto;
         .film{margin:50px 0;min-width:1500px;
                 >div{float:left;}
-    /*.details.small{margin:10px 20px;}
-    .details.short{margin:auto 20px;}*/
-    .details{height:100%;width: 23%;margin: auto 2%;margin-left: 5%;color:white;max-width: 340px;
+        .details{height:100%;width: 23%;margin: auto 2%;margin-left: 5%;color:white;max-width: 340px;
 
              p{margin:0;}.titlebox{background-color:black;padding:20px;font-size:1.4rem; margin-top:2%;}
             p.current{font-family:bebas;text-transform:uppercase;font-size:1.4rem;color:red;}
@@ -163,8 +132,34 @@ a:hover ~.fb_iframe_widget{display:inline-block!important;} .fb_iframe_widget:ho
     height:20px;text-align:center;margin:190px auto 0px;position:relative;p{font-size:1.2rem;}
 }
 
+.icons{
+position: fixed;
+left: 0;
+top: 10%;
+z-index: 9;
+        >div{
+            border-bottom: 1px solid transparent;
+        height: 50px;
+        position: relative;
+        }
+        img{
+        width: 50px;
+        height: 50px;
+        background-color: #3D3D3D;
+        }
 
+        a {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        }
 
+#imdb:hover img {background-color: #f4d701;}
+#linkedin:hover img {background-color: #007bb6;}
+#twitter:hover img {background-color: #00aced;}
+
+}
 //lightbox
 #lightbox {
     position:fixed; /* keeps the lightbox window in the current viewport */
