@@ -33,31 +33,36 @@
     </div>
     <div id="header" class="centerdiv">
         <ul class="menu">
-            <li>
-                <a id="homeButton">Home</a>
+            <li><input type="radio" name="menu" value="homebut" id="homebut" />
+                <a id="homeButton"><label for="homebut" />Home</a>
+                
             </li>
-            <li>
-                <a id="aboutButton">About</a>
+            <li><input type="radio" name="menu" value="aboutbut" id="aboutbut" />
+                <a id="aboutButton"><label for="aboutbut" />About</a>
+                
             </li>
-            <li>
-                <a id="filmsButton">Films</a>
+            <li><input type="radio" name="menu" value="filmsbut" id="filmsbut" />
+                <a id="filmsButton"><label for="filmsbut" />Films</a>
+                
             </li>
-            <li>
-                <a id="newsButton">News</a>
+            <li><input type="radio" name="menu" value="newsbut" id="newsbut" />
+                <a id="newsButton"><label for="newsbut" />News</a>
+                
             </li>
-            <li>
-                <a id="cvButton">CV</a>
+            <li><input type="radio" name="menu" value="cvbut" id="cvbut" />
+                <a id="cvButton"><label for="cvbut" />CV</a>
+                
             </li>
         </ul>
     </div>
-    <div id="home">
+    <div id="home" class="fadein">
         <div class="nametitle">
             <h1>Andrew David Robson</h1>
             <h2>Freelance Film Director & Cinematographer</h2>
             <img alt="robson home"src="img/homeback.jpg" />
         </div>
     </div>
-    <div id="about" class="kill">
+    <div id="about" class="fadein kill">
         <div class="head">
             <h4>
                 About
@@ -88,7 +93,7 @@
             <a href="arobson47@gmail.com">arobson47@gmail.com</a>
         </div>
     </div>
-    <div id="films" class="kill">
+    <div id="films" class="fadein kill">
         <div class="film clearfix" id="film0">
             <div class="details">
                 <div class="titlebox">
@@ -140,7 +145,7 @@
             <div class="previewpics quad">
                 <div class="top2">
                     <div class="img">
-                        <img alt ="milk and two sugars" src="img/filmpics/milk1.png" />
+                        <img alt="milk and two sugars" src="img/filmpics/milk1.png" />
                         <a></a>
                         <div class="fb-like" data-href="https://www.facebook.com/werehavingmilkandtwosugars" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
                     </div>
@@ -226,22 +231,22 @@
                 <div class="img">
                     <img alt="cellar" src="img/filmpics/cellar1.png" />
                     <a></a>
- <!--                   <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>-->
+                    <!--                   <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>-->
                 </div>
                 <div class="img">
                     <img alt="cellar" src="img/filmpics/cellar2.png" />
                     <a></a>
- <!--                   <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>-->
+                    <!--                   <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>-->
                 </div>
                 <div class="img">
                     <img alt="cellar" src="img/filmpics/cellar3.png" />
                     <a></a>
-     <!--               <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>-->
+                    <!--               <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>-->
                 </div>
                 <div class="img">
                     <img alt="cellar" src="img/filmpics/cellar4.png" />
                     <a></a>
-         <!--           <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>-->
+                    <!--           <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>-->
                 </div>
             </div>
         </div>
@@ -295,7 +300,7 @@
                    </div>
                </div>-->
     </div>
-    <div id="news" class="kill">
+    <div id="news" class="fadein kill">
         <h1>News:</h1>
         <div class="article" id="article1">
             <div class="img">
@@ -334,11 +339,11 @@
             <img alt="clapper" src="img/clapper.jpg" />
         </div>
     </div>
-    <div id="cv" class="kill">
+    <div id="cv" class="fadein kill">
         <h1>Coming Soon</h1>
     </div>
     <div id="footer">
-        <p>Copyright © 2014 Andrew David Robson.</p>
+        <p>Copyright © 2014 Andrew David Robson</p>
     </div>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
