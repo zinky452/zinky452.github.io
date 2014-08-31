@@ -2,8 +2,23 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script type="text/javascript">
+    var IE = ("onpropertychange" in document) && (!!window.innerWidth);
+
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement("style");
+        var mq = "@@-ms-viewport{width:auto!important}";
+        msViewportStyle.appendChild(document.createTextNode(mq));
+        document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+    }
+    </script>
+
+
+    
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
     <title>Andrew Robson | Freelance Director & Cinematographer | Newcastle</title>
     <meta name="description" content="Andrew David Robson's Portfolio | Freelance Film Director & Cinematographer
@@ -16,7 +31,7 @@
     <div class="icons">
         <div id="imdb">
             <img alt="imdb" src="imdb.png">
-            <a target="_blank" href="http://www.imdb.com/name/nm6296453 /"></a>
+            <a target="_blank" href="http://www.imdb.com/name/nm6296453/"></a>
         </div>
         <div id="linkedin">
             <img alt="linkedin" src="li.png">
@@ -33,25 +48,30 @@
     </div>
     <div id="header" class="centerdiv">
         <ul class="menu">
-            <li><input type="radio" name="menu" value="homebut" id="homebut" />
+            <li>
+                <input type="radio" name="menu" value="homebut" id="homebut" />
                 <a id="homeButton"><label for="homebut" />Home</a>
-                
+
             </li>
-            <li><input type="radio" name="menu" value="aboutbut" id="aboutbut" />
+            <li>
+                <input type="radio" name="menu" value="aboutbut" id="aboutbut" />
                 <a id="aboutButton"><label for="aboutbut" />About</a>
-                
+
             </li>
-            <li><input type="radio" name="menu" value="filmsbut" id="filmsbut" />
+            <li>
+                <input type="radio" name="menu" value="filmsbut" id="filmsbut" />
                 <a id="filmsButton"><label for="filmsbut" />Films</a>
-                
+
             </li>
-            <li><input type="radio" name="menu" value="newsbut" id="newsbut" />
+            <li>
+                <input type="radio" name="menu" value="newsbut" id="newsbut" />
                 <a id="newsButton"><label for="newsbut" />News</a>
-                
+
             </li>
-            <li><input type="radio" name="menu" value="cvbut" id="cvbut" />
+            <li>
+                <input type="radio" name="menu" value="cvbut" id="cvbut" />
                 <a id="cvButton"><label for="cvbut" />CV</a>
-                
+
             </li>
         </ul>
     </div>
@@ -59,7 +79,7 @@
         <div class="nametitle">
             <h1>Andrew David Robson</h1>
             <h2>Freelance Film Director & Cinematographer</h2>
-            <img alt="robson home"src="img/homeback.jpg" />
+            <img alt="robson home" src="img/homeback.jpg" />
         </div>
     </div>
     <div id="about" class="fadein kill">
@@ -347,7 +367,7 @@
     </div>
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
-   <!-- <script type="text/javascript" src="lazyload.js"></script>-->
+    <!-- <script type="text/javascript" src="lazyload.js"></script>-->
     <script>
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
