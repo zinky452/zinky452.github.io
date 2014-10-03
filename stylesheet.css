@@ -16,6 +16,9 @@
 .margin {
   margin: auto; }
 
+.margin-top-50 {
+  margin-top: 50px; }
+
 .clearfix:before, .clearfix:after {
   content: "";
   display: table; }
