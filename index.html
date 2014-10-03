@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script type="text/javascript">
-    var IE = ("onpropertychange" in document) && (!!window.innerWidth);
+        var IE = ("onpropertychange" in document) && (!!window.innerWidth);
 
-    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-        var msViewportStyle = document.createElement("style");
-        var mq = "@@-ms-viewport{width:auto!important}";
-        msViewportStyle.appendChild(document.createTextNode(mq));
-        document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
-    }
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            var mq = "@@-ms-viewport{width:auto!important}";
+            msViewportStyle.appendChild(document.createTextNode(mq));
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
     </script>
 
 
-    
+
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
     <title>Andrew Robson | Freelance Director & Cinematographer | Newcastle</title>
@@ -326,12 +326,21 @@
     <div id="news" class="fadein kill">
         <h1>News:</h1>
         <div class="article" id="article1">
+            <div class="img shnit">
+                <img alt="shnit film festival" src="img/shnit.jpg" />
+            </div>
+            <div class="details">
+                <h3>Hello Switzerland!</h3>
+                <p>An Autumn Affair will be screened as part of the 'Marry Me' Programme at this years, Shnit Film Festival in Switzerland. See link for info...</p>
+                <p class="tagline">For more information <a href="http://bern.shnit.org/de/program/film-programbrowser/program-details/271.html">CLICK HERE</a></p>
+            </div>
+        </div>
+        <div class="article" id="article1">
             <div class="img">
                 <img alt="cinemonde film festival" src="img/cinemonde.jpg" />
             </div>
             <div class="details">
                 <h3>An Autumn Affair's New York premiere...</h3>
-                <p>An Autumn Affair will be screened as part of the 'Marry Me' Programme at this years, Shnit Film Festival in Switzerland. See link for info...</p><a href="http://bern.shnit.org/de/program/film-programbrowser/program-details/271.html">link</a>
                 <p class="tagline">Delighted that 'AN AUTUMN AFFAIR' has been selected to be part of Cinémonde Soirée #42 which is held in New York.</p>
                 <p>
                     "Soirée #42 is our annual celebration of Bastille Day and all things independent, specifically films from around the world.
