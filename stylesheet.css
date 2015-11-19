@@ -170,7 +170,6 @@ a, a:visited, a:hover, a:active {
   margin-top: -2px;
   margin-bottom: -220px; }
   #home img {
-    margin-top: -130px;
     width: 100%;
     max-width: 1500px; }
   #home .nametitle {
@@ -181,20 +180,20 @@ a, a:visited, a:hover, a:active {
     max-height: 900px;
     overflow: hidden;
     text-shadow: -1px -1px 0 gray, 1px -1px 0 gray, -1px 1px 0 gray, 1px 1px 0 gray; }
+    #home .nametitle h1, #home .nametitle h2 {
+      position: absolute;
+      left: 0;
+      right: 0; }
     #home .nametitle h1 {
-      font-size: 2.5em;
-      margin: 0;
-      text-transform: uppercase;
       font-family: oswaldbold;
-      position: relative;
-      top: 350px; }
+      font-size: 2.5em;
+      text-transform: uppercase;
+      bottom: 40%; }
     #home .nametitle h2 {
-      font-size: 1.8rem;
-      margin: 0;
-      text-transform: capitalize;
       font-family: oswaldlight;
-      position: relative;
-      top: 350px; }
+      font-size: 1.8rem;
+      text-transform: capitalize;
+      bottom: 36%; }
 
 #about {
   margin: 40px auto;

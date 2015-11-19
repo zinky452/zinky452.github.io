@@ -226,7 +226,6 @@ a, a:visited, a:hover, a:active {
     margin-top: -2px;
 
     img {
-        margin-top: -130px;
         width: 100%;
         max-width: 1500px;
     }
@@ -240,22 +239,24 @@ a, a:visited, a:hover, a:active {
         overflow: hidden;
         text-shadow: -1px -1px 0 gray, 1px -1px 0 gray,-1px 1px 0 gray, 1px 1px 0 gray;
 
+        h1, h2 {
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+
         h1 {
-            font-size: 2.5em;
-            margin: 0;
-            text-transform: uppercase;
             font-family: oswaldbold;
-            position: relative;
-            top: 350px;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            bottom: 40%;
         }
 
         h2 {
-            font-size: 1.8rem;
-            margin: 0;
-            text-transform: capitalize;
             font-family: oswaldlight;
-            position: relative;
-            top: 350px;
+            font-size: 1.8rem;
+            text-transform: capitalize;
+            bottom: 36%;
         }
     }
 
