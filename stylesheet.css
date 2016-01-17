@@ -19,7 +19,8 @@
 .margin-top-50 {
   margin-top: 50px; }
 
-.clearfix:before, .clearfix:after {
+.clearfix:before,
+.clearfix:after {
   content: "";
   display: table; }
 
@@ -50,42 +51,39 @@ h1 {
 
 @font-face {
   font-family: "bebas";
-  src: url('bebas.ttf') format('truetype'); }
+  src: url("bebas.ttf") format("truetype"); }
 
 @font-face {
   font-family: "oswaldbold";
-  src: url('oswaldbold.ttf') format('truetype'); }
+  src: url("oswaldbold.ttf") format("truetype"); }
 
 @font-face {
   font-family: "oswaldlight";
-  src: url('oswaldlight.ttf') format('truetype'); }
+  src: url("oswaldlight.ttf") format("truetype"); }
 
 @font-face {
   font-family: "komikatitle";
-  src: url('komikatitle.ttf') format('truetype'); }
+  src: url("komikatitle.ttf") format("truetype"); }
 
 @font-face {
   font-family: "ostrichblack";
-  src: url('ostrichblack.ttf') format('truetype'); }
+  src: url("ostrichblack.ttf") format("truetype"); }
 
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0; }
-
   to {
     opacity: 1; } }
 
 @-moz-keyframes fadeIn {
   from {
     opacity: 0; }
-
   to {
     opacity: 1; } }
 
 @keyframes fadeIn {
   from {
     opacity: 0; }
-
   to {
     opacity: 1; } }
 
@@ -179,7 +177,7 @@ a, a:visited, a:hover, a:active {
     max-width: 100%;
     max-height: 900px;
     overflow: hidden;
-    text-shadow: -1px -1px 0 gray, 1px -1px 0 gray, -1px 1px 0 gray, 1px 1px 0 gray; }
+    text-shadow: -1px -1px 0 gray, 1px -1px 0 gray,-1px 1px 0 gray, 1px 1px 0 gray; }
     #home .nametitle h1, #home .nametitle h2 {
       position: absolute;
       left: 0;
@@ -246,7 +244,7 @@ a, a:visited, a:hover, a:active {
         font-size: 1.2rem; }
       #films .film .details p.description {
         font-family: Verdana, Arial, Helvetica, sans-serif;
-        font-size: 0.9rem;
+        font-size: .9rem;
         color: darkgray;
         margin-top: 30px; }
       #films .film .details .fb1 {
@@ -386,6 +384,8 @@ a:hover ~ .fb_iframe_widget {
     background-color: #007bb6; }
   .icons #twitter:hover img {
     background-color: #00aced; }
+  .icons #instagram:hover img {
+    background-color: #e6a900; }
 
 #lightbox {
   position: fixed;
@@ -405,4 +405,3 @@ a:hover ~ .fb_iframe_widget {
     margin-right: 20px;
     font-size: 12px; }
 
-/*# sourceMappingURL=stylesheet.css.map */
